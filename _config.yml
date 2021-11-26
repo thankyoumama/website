@@ -1,0 +1,22 @@
+title: Thank You Mama Café
+tagline: Your friendly neighborhood café in (Los) Anjos, Lisboa
+description: >-
+  We brew specialty coffee &#9749;, bake our bagels &#129391; and roast fresh
+  chocolate &#127851;!
+keywords: >-
+  specialty coffee, bagels, chocolate, bean-to-bar, babka, workshops, events,
+  barista school, art exhibitions, tastings, lisbon, anjos, portugal
+
+email: hello@thankyoumama.cafe
+url: https://thankyoumama.cafe
+baseurl: ''
+address: Rua do Forno do Tijolo 9A, Anjos, 1170-132 Lisboa, Portugal
+google_maps: https://goo.gl/maps/jSVt6Z2qD3vnm2mR8
+instagram: https://www.instagram.com/thankyoumama.cafe
+spotify: https://open.spotify.com/user/3134pyqowoc4ycrzhv7gzkoihu6u
+
+plugins:
+  - jekyll-inline-svg
+
+svg:
+  optimize: true

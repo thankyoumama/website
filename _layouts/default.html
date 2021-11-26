@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>{{ site.title }} &bull; {{ page.title }}</title>
+
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ site.keywords }}">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <style>
+      .poppins { font-family: 'Poppins', sans-serif }
+      .bg-tym-red { background-color: #EF3D28 }
+      .b--tym-red { border-color: #EF3D28 }
+      .tym-red { color: #EF3D28 }
+
+      @media screen and (min-width: 60em) {
+        .hero-l { background: url('/assets/thank-you-mama-cafe.jpg') no-repeat top right; }
+      }
+    </style>
+  </head>
+
+  <body class="bg-tym-red poppins white">
+    <div class="flex-l ml2-l">
+      <div class="w-30-l pa5 lh-copy">
+        <a href="{{ site.url }}" class="link white">
+          {% svg 'assets/tym-logo.svg' %}
+        </a>
+
+        <div class="mt4 pv4 bt b--white ttu f4-l f3 f2-ns fw6 tracked-mega">
+          Your friendly neighborhood café in (Los) Anjos, Lisboa
+        </div>
+
+        <div class="bg-white dn-l nl5 nr5">
+          {{ content }}
+        </div>
+
+        <div class="pt4 bt-l b--white f7 ttu code">
+          <p>
+            <a href="mailto: {{ site.email }}" class="white dim">
+              {{ site.email }}
+            </a>
+          </p>
+          <p>
+            {{ site.address }}
+          </p>
+          <p>
+            &copy; Thank You Mama Lda., PT516430211
+          </p>
+
+          <div class="media flex justify-between w-50 mt4">
+            <a href="{{ site.google_maps }}" class="white dim w-20">
+              {% svg 'assets/google_maps.svg'  %}
+            </a>
+            <a href="{{ site.instagram }}" class="white dim w-20">
+              {% svg 'assets/instagram.svg'  %}
+            </a>
+            <a href="{{ site.spotify }}" class="white dim w-20">
+              {% svg 'assets/spotify.svg'  %}
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="w-80 bg-white dn db-l">
+        {{ content }}
+      </div>
+    </div>
+  </body>
+</html>
