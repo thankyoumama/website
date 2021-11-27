@@ -13,9 +13,9 @@ title: Homepage
       {{ site.description }}
       </p>
 
-      <p class="ttu f5">
+      <p class="f5">
         We also like to run workshops and events with artsy people from
-        the local community &#9889;
+        the local community.
       </p>
 
       <p class="mb0-l">
