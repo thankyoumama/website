@@ -19,7 +19,7 @@ title: Homepage
       </p>
 
       <p class="mb0-l">
-        <a href="/events/" class="black dim">
+        <a href="/events.html" class="black dim">
           See upcoming workshops/events
           <img src="/assets/boomparrot.gif" alt="YOLO" class="w2 pl2 nb1" />
         </a>
