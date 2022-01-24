@@ -6,7 +6,7 @@ title: Workshops and Events
 <div class="">
   <div class="black lh-copy w-100 mt5">
 
-    <h2 class="ttu pa5 bb b--near-white">Our Workshops and Events</h2>
+    <h2 class="ttu mb0 pa5 bb b--near-white">Our Workshops and Events</h2>
 
     <div class="ph5 pv3 gray w-80">
       <p>

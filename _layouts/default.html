@@ -11,8 +11,8 @@
 
     <meta property="og:type" content="business.business">
     <meta property="og:title" content="{{ site.title }}">
-    <meta property="og:url" content="https://thankyoumama.cafe">
-    <meta property="og:image" content="https://thankyoumama.cafe/assets/thank-you-mama-cafe-mobile.jpg">
+    <meta property="og:url" content="{{ site.uri }}">
+    <meta property="og:image" content="{{ site.uri }}/assets/thank-you-mama-cafe-mobile.jpg">
     <meta property="og:description" content="{{ site.title }}. {{ site.description }}">
     <meta property="business:contact_data:street_address" content="Rua do Forno do Tijolo 9A">
     <meta property="business:contact_data:locality" content="Lisboa">
@@ -38,7 +38,7 @@
   <body class="bg-tym-red poppins white">
     <div class="flex-l ml2-l">
       <div class="w-30-l pa5 lh-copy">
-        <a href="{{ site.url }}" class="link white">
+        <a href="{{ site.uri }}" class="link white">
           {% svg 'assets/tym-logo.svg' %}
         </a>
 
