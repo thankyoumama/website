@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Homepage
+hero: true
 ---
 
 <div class="hero-l cover-l">

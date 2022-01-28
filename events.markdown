@@ -30,14 +30,14 @@ title: Workshops and Events
             <img src="{{event.image_url}}" alt="event.title" class="db dn-l w-100" />
           {% endif %}
 
-          <div class="pa5" id="{{event.title | slugify}}">
-            <h3 class="mb0 tracked">
+          <div class="pa5">
+            <h3 class="mb0 tracked" id="{{event.title | slugify}}">
               <a class="link black" href="#{{event.title | slugify}}">{{ event.title }}</a>
             </h3>
 
             <p class="tracked">
               <span class="underline">{{ event.date | date: "%A, %R on %-d of %B %Y" }}</span> by
-              <a class="dim black" href="{{event.author_link}}">{{ event.author }}</a>
+              <a class="dim black" href="{{event.author_url}}">{{ event.author }}</a>
             </p>
 
             <p>

@@ -59,13 +59,15 @@
           {{ site.tagline }}
         </div>
 
-        <div class="bg-white dn-l nl5 nr5">
-          {{ content }}
-        </div>
+        {% if page.hero %}
+          <div class="bg-white dn-l nl5 nr5">
+            {{ content }}
+          </div>
+        {% endif %}
 
         <div class="pt4 bt-l b--white f7 ttu code">
           <p>
-            <a href="mailto: {{ site.email }}" class="white dim">
+            <a href="mailto:{{ site.email }}" class="white dim">
               {{ site.email }}
             </a>
           </p>
@@ -89,8 +91,10 @@
           </div>
         </div>
       </div>
-      <div class="w-80 bg-white dn db-l">
-        {{ content }}
+      <div class="w-100 w-80-l bg-white">
+        <div class="{% if page.hero %} dn db-l {% endif %}">
+          {{ content }}
+        </div>
       </div>
     </div>
   </body>
