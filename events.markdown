@@ -23,7 +23,7 @@ title: Workshops and Events
     </div>
 
     {% for event in site.data.events %}
-      <div class="flex-l striped--near-white">
+      <div class="flex-l striped--near-white" id="{{event.title | slugify}}">
         <div class="w-100 w-70-l">
 
           {% if event.image_url %}
@@ -31,7 +31,7 @@ title: Workshops and Events
           {% endif %}
 
           <div class="pa5">
-            <h3 class="mb0 tracked" id="{{event.title | slugify}}">
+            <h3 class="mb0 tracked">
               <a class="link black" href="#{{event.title | slugify}}">{{ event.title }}</a>
             </h3>
 
