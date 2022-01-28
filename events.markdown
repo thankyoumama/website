@@ -8,7 +8,7 @@ title: Workshops and Events
 
     <h2 class="ttu mb0 pa5 bb b--near-white">Our Workshops and Events</h2>
 
-    <div class="ph5 pv3 gray w-80">
+    <div class="ph5 pv3 gray w-80-l">
       <p>
         We try to regularly organize events with our in-house baristas and
         dear guests from our community. Feel free to reach out to us if you are
@@ -24,17 +24,20 @@ title: Workshops and Events
 
     {% for event in site.data.events %}
       <div class="flex-l striped--near-white">
-        <div class="w-70-l">
+        <div class="w-100 w-70-l">
 
           {% if event.image_url %}
-            <img src="{{event.image_url}}" alt="event.title" class="dn-l w-100" />
+            <img src="{{event.image_url}}" alt="event.title" class="db dn-l w-100" />
           {% endif %}
 
-          <div class="pa5">
-            <h3 class="mb0 tracked">{{ event.title }}</h3>
+          <div class="pa5" id="{{event.title | slugify}}">
+            <h3 class="mb0 tracked">
+              <a class="link black" href="#{{event.title | slugify}}">{{ event.title }}</a>
+            </h3>
 
             <p class="tracked">
-              <span class="underline">{{ event.date | date: "%A, %R on %-d of %B %Y" }}</span> by {{ event.author }}
+              <span class="underline">{{ event.date | date: "%A, %R on %-d of %B %Y" }}</span> by
+              <a class="dim black" href="{{event.author_link}}">{{ event.author }}</a>
             </p>
 
             <p>
@@ -75,7 +78,10 @@ title: Workshops and Events
             </p>
           </div>
         </div>
-        <div class="dn db-l w-30 contain" style="background-image: url('{{ event.image_url }}')">
+        <div class="dn db-l stripes w-30 pv5">
+          <div class="nl4">
+            <img src="{{event.image_url}}" alt="event.title" class="w-100" />
+          </div>
         </div>
       </div>
     {% endfor %}
