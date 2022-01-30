@@ -37,7 +37,7 @@ title: Workshops and Events
 
             <p class="tracked">
               <span class="underline">{{ event.date | date: "%A, %R on %-d of %B %Y" }}</span> by
-              <a class="dim black" href="{{event.author_url}}">{{ event.author }}</a>
+              <a class="dim black" href="{{event.author_url}}">{{ event.author }} &#10697;</a>
             </p>
 
             <p>
