@@ -138,9 +138,6 @@ GEM
     jekyll-github-metadata (2.13.0)
       jekyll (>= 3.4, < 5.0)
       octokit (~> 4.0, != 4.4.0)
-    jekyll-inline-svg (1.1.4)
-      jekyll (>= 3.3, < 5.0)
-      svg_optimizer (~> 0.2.5)
     jekyll-mentions (1.6.0)
       html-pipeline (~> 2.3)
       jekyll (>= 3.7, < 5.0)
@@ -257,8 +254,6 @@ GEM
       faraday (> 0.8, < 2.0)
     simpleidn (0.2.1)
       unf (~> 0.1.4)
-    svg_optimizer (0.2.5)
-      nokogiri
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
@@ -277,7 +272,6 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-inline-svg
 
 BUNDLED WITH
    2.2.24

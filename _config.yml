@@ -14,11 +14,3 @@ address: Rua do Forno do Tijolo 9A, Anjos, 1170-132 Lisboa, Portugal
 google_maps: https://goo.gl/maps/jSVt6Z2qD3vnm2mR8
 instagram: https://www.instagram.com/thankyoumama.cafe
 spotify: https://open.spotify.com/user/3134pyqowoc4ycrzhv7gzkoihu6u
-
-destination: docs
-
-plugins:
-  - jekyll-inline-svg
-
-svg:
-  optimize: true
