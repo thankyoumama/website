@@ -1,0 +1,25 @@
+<div class="pt4 bt-l b--white f7 ttu code">
+  <p>
+    <a href="mailto:{{ site.email }}" class="white dim">
+      {{ site.email }}
+    </a>
+  </p>
+  <p>
+    {{ site.address }}
+  </p>
+  <p>
+    &copy; Thank You Mama Lda., PT516430211
+  </p>
+
+  <div class="media flex justify-between w-50 mt4">
+    <a href="{{ site.google_maps }}" class="white dim w-20">
+      {% svg 'assets/google_maps.svg'  %}
+    </a>
+    <a href="{{ site.instagram }}" class="white dim w-20">
+      {% svg 'assets/instagram.svg'  %}
+    </a>
+    <a href="{{ site.spotify }}" class="white dim w-20">
+      {% svg 'assets/spotify.svg'  %}
+    </a>
+  </div>
+</div>
