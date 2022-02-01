@@ -63,7 +63,7 @@ title: Workshops and Events
 
               {% assign simple_date = event.date | date: '%c' %}
               {% assign payment_desc = event.title | append: ': ' | append: simple_date | url_encode %}
-              {% if unix_date > unix_cur_date %}
+              {% if unix_date > unix_cur_date and event.sold != 'true' %}
                 <a
                   href="https://www.vivapayments.com/web2/?ref=8156126989356884&requestAmount={{ event.price | times: 100 }}&lang=en-GB&color=EF3D28&notes={{ payment_desc }}"
                   class="bg-tym-red white pv3 ph4 dib link b tracked"

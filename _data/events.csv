@@ -1,11 +1,11 @@
-title,author,date,price,slots,duration,description,image_url,author_url
+title,author,date,price,slots,duration,description,image_url,author_url,sold
 "‘Gong fu’ tea session",Marcus,2022-02-10T17:00,15,3,01:30h,"Do you want to go deeper with tea? Then come join our small group ‘gong fu’ tea session!
 
 You will learn the basics of the Chinese approach or ‘art’ of how best to brew tea, using much smaller brewing vessels and a higher leaf to water ratio than western brewing.
 
 You’ll learn this while exploring 3 super quality and quite different tea varieties, including a black tea, an Oolong and a fermented Puerh.
 
-We’ll also cover the equipment you need to help you get started on your own tea journey.",/assets/marcus-tea.png,#,
+We’ll also cover the equipment you need to help you get started on your own tea journey.",/assets/marcus-tea.png,#,true
 "Hot Coffee Three Brewing Methods Workshop",Anna,2022-02-17T17:00,25,5,"~2:00 hours","We'll be covering a short introduction to specialty coffee, the geography, and history of coffee.
 
 You will learn about the brewing equipments like V60, Chemex and AeroPress. And finally we'll be practicing three methods of brewing and learn about the main ingredients (eg. Quality of the water and coffee grind importance).
