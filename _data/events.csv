@@ -1,5 +1,20 @@
 title,author,date,price,slots,duration,description,image_url,author_url,sold
-"Second ""Gong fu"" tea workshop",Marcus,2022-03-05T11:00,30,3,02:00h,"After the first workshop positive feedback, we decided to run a second workshop together with Marcus!
+Three Brewing Methods Workshop,Anna,2022-04-24 11:00,25,4,02:00h,"We'll be covering a short introduction to specialty coffee, the geography, and history of coffee.
+
+You will learn about the brewing equipments like V60, Chemex and AeroPress. And finally we'll be practicing three methods of brewing and learn about the main ingredients (eg. Quality of the water and coffee grind importance).
+
+At the end we will be doing a tasting and evaluation session.",/assets/brew.png,https://www.instagram.com/thankyoumama.cafe/,
+Espresso Workshop,Anna,2022-04-14 17:30,25,4,02:00h,"We will be studying the basics about the shots pulling, the meaning of chanelling and how it all affects the taste in a delicious cup of coffee. 
+
+The workshop includes the theory and practice. After studying the basics we will spend some time doing our own espressos with professional equipment.
+
+Get ready to be a barista with us!",/assets/espresso.png,https://www.instagram.com/thankyoumama.cafe/,
+Three Brewing Methods Workshop,Anna,2022-04-03 11:00,25,4,02:00h,"We'll be covering a short introduction to specialty coffee, the geography, and history of coffee.
+
+You will learn about the brewing equipments like V60, Chemex and AeroPress. And finally we'll be practicing three methods of brewing and learn about the main ingredients (eg. Quality of the water and coffee grind importance).
+
+At the end we will be doing a tasting and evaluation session.",/assets/brew.png,https://www.instagram.com/thankyoumama.cafe/,
+"Second ""Gong fu"" tea workshop",Marcus,2022-03-05 11:00,30,3,02:00h,"After the first workshop positive feedback, we decided to run a second workshop together with Marcus!
 
 In this workshop you will learn the basics of the Chinese approach or ""art"" of how best to brew tea, using much smaller brewing vessels and a higher leaf to water ratio than western brewing.
 
@@ -7,22 +22,22 @@ You'll learn this while exploring 3 super quality and quite different tea variet
 
 We'll also cover the equipment you need to help you get started on your own tea journey and the importance of the temperature and time control.
 ",/assets/gong_fu_march_2022.jpeg,https://www.instagram.com/morefishsauce/,
-"Coffee Tasting Workshop: For coffee drinkers and lovers",Hanna,2022-02-26T11:00,40,5-12,"2:30 hours","Finnish Hanna is a specialty coffee veteran having worked in the industry 10+ years from barista and marketer to green coffee seller and buyer. She is a certified quality Arabica grader and has worked in the industry from Finland to Australia and Guatemala. Hanna has a way to explain complex coffee lingo in a fun and easy way to someone who drinks instant coffee every day.
+Coffee Tasting Workshop: For coffee drinkers and lovers,Hanna,2022-02-26 11:00,40,5-12,2:30 hours,"Finnish Hanna is a specialty coffee veteran having worked in the industry 10+ years from barista and marketer to green coffee seller and buyer. She is a certified quality Arabica grader and has worked in the industry from Finland to Australia and Guatemala. Hanna has a way to explain complex coffee lingo in a fun and easy way to someone who drinks instant coffee every day.
 
 Now she is here to hold a Coffee Tasting Workshop for anyone interested to understand more about different flavours of coffee and how to taste them. This is a fun experience, and you'll get to taste several coffees from different growing regions and processing methods, all explained by an industry professional.
 
 You’ll walk away from the workshop with a basic understanding how coffee is grown and processed and how these factors may effect how different coffees taste. Additionally you'll get some brewing and coffee-making tips along the
 way.",/assets/hanna_feb_2022.jpeg,https://mustana.fi,
-"Hot Coffee Three Brewing Methods Workshop",Anna,2022-02-17T17:00,25,5,"~2:00 hours","We'll be covering a short introduction to specialty coffee, the geography, and history of coffee.
+Hot Coffee Three Brewing Methods Workshop,Anna,2022-02-17 17:00,25,5,~2:00 hours,"We'll be covering a short introduction to specialty coffee, the geography, and history of coffee.
 
 You will learn about the brewing equipments like V60, Chemex and AeroPress. And finally we'll be practicing three methods of brewing and learn about the main ingredients (eg. Quality of the water and coffee grind importance).
 
-At the end we will be doing a tasting and evaluation session.",/assets/anna_feb_2022.jpeg,https://www.instagram.com/thankyoumama.cafe/,true
-"""Gong fu"" tea session",Marcus,2022-02-10T17:00,15,3,01:30h,"Do you want to go deeper with tea? Then come join our small group ‘gong fu’ tea session!
+At the end we will be doing a tasting and evaluation session.",/assets/anna_feb_2022.jpeg,https://www.instagram.com/thankyoumama.cafe/,TRUE
+"""Gong fu"" tea session",Marcus,2022-02-10 17:00,15,3,01:30h,"Do you want to go deeper with tea? Then come join our small group ‘gong fu’ tea session!
 
 You will learn the basics of the Chinese approach or ‘art’ of how best to brew tea, using much smaller brewing vessels and a higher leaf to water ratio than western brewing.
 
 You’ll learn this while exploring 3 super quality and quite different tea varieties, including a black tea, an Oolong and a fermented Puerh.
 
-We’ll also cover the equipment you need to help you get started on your own tea journey.",/assets/gong_fu_feb_2022.jpeg,https://www.instagram.com/morefishsauce/,true
-"Nomad Cupping in Lisbon (Guest)","Jordi and Fran",2021-12-02T14:30,0,20,"2:00 hours","NOMAD is our friends, partners and also an amazing coffee roastery. We are humbled and proud to invite you to spend a day with Jordi and Fran. There will be a cupping workshop, tunes and obviously more coffee! See you soon!",/assets/nomad_2021.jpg,https://nomadcoffee.es,
+We’ll also cover the equipment you need to help you get started on your own tea journey.",/assets/gong_fu_feb_2022.jpeg,https://www.instagram.com/morefishsauce/,TRUE
+Nomad Cupping in Lisbon (Guest),Jordi and Fran,2021-12-02 14:30,0,20,02:00h,"NOMAD is our friends, partners and also an amazing coffee roastery. We are humbled and proud to invite you to spend a day with Jordi and Fran. There will be a cupping workshop, tunes and obviously more coffee! See you soon!",/assets/nomad_2021.jpg,https://nomadcoffee.es,
