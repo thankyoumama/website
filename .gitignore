@@ -3,3 +3,4 @@
 vendor
 docs
 _site
+*.lock
