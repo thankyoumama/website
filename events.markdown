@@ -16,6 +16,13 @@ title: Workshops and Events
       </p>
 
       <p>
+        We have a card (with a handmade illustration by our dear friend Val)
+        you can print and sign if you want to offer our
+        workshops as a gift!
+        <a href="/assets/card.jpg" class="gray">Download it here</a>.
+      </p>
+
+      <p>
         Disclaimer: we might have to reach out to you and refund you if we're
         sold out due to our booking technical limitations. We're sorry and
         we still hope to see you soon!
