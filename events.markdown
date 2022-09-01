@@ -49,7 +49,7 @@ title: Workshops and Events
 
             <p>
               &#128176;
-              {% if event.price != '0' %}
+              {% if event.price != '0' and event.price != '0.01' %}
                 €{{ event.price }}
               {% else %}
                 free
@@ -72,7 +72,7 @@ title: Workshops and Events
               {% assign payment_desc = event.title | append: ': ' | append: simple_date | url_encode %}
               {% if unix_date > unix_cur_date and event.sold != 'TRUE' %}
                 <a
-                  href="https://www.vivapayments.com/web2/?ref=8156126989356884&requestAmount={{ event.price | times: 100 }}&lang=en-GB&color=EF3D28&notes={{ payment_desc }}"
+                  href="https://www.vivapayments.com/web2/?ref=8156126989356884&requestAmount={{ event.price | times: 100 | ceil }}&lang=en-GB&color=EF3D28&notes={{ payment_desc }}"
                   class="bg-tym-red white pv3 ph4 dib link b tracked"
                 >
                   Save my spot
