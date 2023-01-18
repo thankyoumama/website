@@ -30,6 +30,11 @@ hero: true
         Send us your arts to exhibit <span class="f2">&#129331;</span>
         </a>
       </p>
+      <p class="ma0-l">
+        <a href="/assets/menu.pdf" class="black dim">
+        Latest menu <span class="f3">&#127859;</span>
+        </a>
+      </p>
     </div>
   </div>
 </div>
