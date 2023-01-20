@@ -26,11 +26,6 @@ hero: true
         </a>
       </p>
       <p class="ma0-l">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4bRUGtDtHgnobPMvOcwoiH_AYWTjdRl7uE-tMa8DVA3DJ9w/viewform" class="black dim">
-        Send us your arts to exhibit <span class="f2">&#129331;</span>
-        </a>
-      </p>
-      <p class="ma0-l">
         <a href="/assets/menu.pdf" class="black dim">
         Latest menu <span class="f3">&#127859;</span>
         </a>
