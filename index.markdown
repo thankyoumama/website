@@ -19,12 +19,6 @@ hero: true
         the local community.
       </p>
 
-      <p class="mb0-l">
-        <a href="/events.html" class="black dim">
-          See upcoming workshops/events
-          <img src="/assets/boomparrot.gif" alt="YOLO" class="w2 pl2 nb1" />
-        </a>
-      </p>
       <p class="ma0-l">
         <a href="/assets/menu.pdf" class="black dim">
         Latest menu <span class="f3">&#127859;</span>
