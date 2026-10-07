@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="THANK YOU MAMA café can be found in Lisbon and Caparica. Since 2021, we’ve been brewing specialty coffee and hosting events, mostly about art and coffee."
+    />
+    <meta
+      name="keywords"
+      content="specialty coffee, bagels, chocolate, bean-to-bar, babka, workshops, events, barista school, art exhibitions, tastings, lisbon, anjos, caparica, portugal"
+    />
+    <meta property="og:type" content="business.business" />
+    <meta property="og:title" content="Thank You Mama Café" />
+    <meta property="og:url" content="https://thankyoumama.cafe" />
+    <meta
+      property="og:image"
+      content="https://thankyoumama.cafe/assets/thank-you-mama-breakfast-entrance.jpg"
+    />
+    <meta
+      property="og:description"
+      content="THANK YOU MAMA café can be found in Lisbon and Caparica. Since 2021, we’ve been brewing specialty coffee and hosting events, mostly about art and coffee."
+    />
+    <meta
+      property="business:contact_data:street_address"
+      content="Rua do Forno do Tijolo 9A"
+    />
+    <meta property="business:contact_data:locality" content="Lisboa" />
+    <meta property="business:contact_data:region" content="Lisboa" />
+    <meta property="business:contact_data:postal_code" content="1170-132" />
+    <meta property="business:contact_data:country_name" content="Portugal" />
+    <title>Thank You Mama Café &bull; Homepage</title>
+
+    <style>
+      :root {
+        --color-accent: #ef3d28;
+        --space-page: 72px;
+        --space-section: 40px;
+        --space-media: 12px;
+        --space-closing: 80px;
+        --space-footer-item: 24px;
+      }
+
+      body {
+        margin: 0;
+        background: #ffffff;
+        color: #111111;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      a {
+        color: var(--color-accent);
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .page {
+        box-sizing: border-box;
+        width: 50%;
+        max-width: 620px;
+        margin: 0 auto;
+        padding: var(--space-page) 20px;
+      }
+
+      .intro,
+      .copy {
+        width: 100%;
+        text-align: center;
+      }
+
+      .intro {
+        margin: 0 auto var(--space-section);
+        font-size: 20px;
+        line-height: 1.6;
+      }
+
+      .brand {
+        font-variant-caps: small-caps;
+      }
+
+      .copy {
+        margin: var(--space-section) auto;
+        font-size: 18px;
+        line-height: 1.7;
+      }
+
+      .copy--closing {
+        margin-bottom: var(--space-closing);
+      }
+
+      .gallery {
+        display: grid;
+        gap: var(--space-media);
+      }
+
+      .gallery img {
+        display: block;
+        width: 100%;
+        border-radius: 3px;
+      }
+
+      .gallery--lisbon {
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+      }
+
+      .gallery--lisbon img {
+        height: 280px;
+        object-fit: cover;
+      }
+
+      .gallery--cafes {
+        grid-template-columns: minmax(0, 0.666667fr) minmax(0, 1.610738fr);
+      }
+
+      .gallery--cafes img {
+        height: auto;
+      }
+
+      .footer {
+        margin: 0;
+        border-top: 1px solid #000000;
+        padding-top: var(--space-section);
+        font-size: 13px;
+        line-height: 1.6;
+        text-align: center;
+      }
+
+      .footer__logo {
+        display: block;
+        width: 98px;
+        max-width: 70%;
+        height: auto;
+        margin: auto;
+      }
+
+      .footer__links {
+        margin: var(--space-footer-item) 0;
+      }
+
+      @media (max-width: 700px) {
+        :root {
+          --space-page: 15vw;
+          --space-section: 32px;
+          --space-closing: 64px;
+          --space-footer-item: 20px;
+        }
+
+        .page {
+          width: 90%;
+          max-width: none;
+          padding: var(--space-page) 0;
+        }
+
+        .gallery {
+          display: block;
+        }
+
+        .gallery img {
+          width: 100%;
+          height: auto;
+          margin-bottom: var(--space-media);
+          object-fit: contain;
+        }
+
+        .gallery img:last-child {
+          margin-bottom: 0;
+        }
+      }
+    </style>
+    <meta name="description" content="Create a simple, elegant coffee shop website featuring an intro, images, and branding elements, designed to attract customers and enhance online presence.">
+    <meta name="robots" content="noindex, nofollow">
+    <meta property="og:title" content="TYM">
+    <meta property="og:description" content="Create a simple, elegant coffee shop website featuring an intro, images, and branding elements, designed to attract customers and enhance online presence.">
+  </head>
+
+  <body>
+    <main class="page">
+      <header class="intro">
+        <p>
+          <span class="brand">Thank you mama</span> café started
+          <a
+            href="https://goo.gl/maps/jSVt6Z2qD3vnm2mR8"
+            target="_blank"
+            rel="noreferrer"
+            >in Anjos, Lisboa</a
+          >. Since 2021, we’ve been brewing specialty coffee (<a
+            href="https://thankyoumama.cafe/assets/menu.pdf"
+            >see the menu</a
+          >) and hosting events, (mostly) about art and coffee.
+        </p>
+      </header>
+
+      <section
+        class="gallery gallery--lisbon"
+        aria-label="Thank You Mama in Lisbon"
+      >
+        <img
+          src="https://sort-cookie-62643129.figma.site/images/1.jpg"
+          alt="The entrance and neon sign at Thank You Mama"
+          loading="lazy"
+        />
+        <img
+          src="https://sort-cookie-62643129.figma.site/images/2.jpg"
+          alt="The counter and patterned floor at Thank You Mama"
+          loading="lazy"
+        />
+        <img
+          src="https://sort-cookie-62643129.figma.site/images/3.jpg"
+          alt="The Thank You Mama storefront in Anjos"
+          loading="lazy"
+        />
+        <img
+          src="https://sort-cookie-62643129.figma.site/images/4.jpg"
+          alt="A bagel with coffee and orange juice"
+          loading="lazy"
+        />
+        <img
+          src="https://sort-cookie-62643129.figma.site/images/5.jpg"
+          alt="Window seating inside Thank You Mama"
+          loading="lazy"
+        />
+      </section>
+
+      <section class="copy">
+        <p>
+          In 2023, we opened our second spot by the ocean
+          <a
+            href="https://www.google.com/maps/search/?api=1&amp;query=Thank+You+Mama+Caparica"
+            target="_blank"
+            rel="noreferrer"
+            >in Costa da Caparica</a>.
+          <a href="https://thankyoumama.cafe/assets/menu.pdf">See the menu</a>.
+        </p>
+      </section>
+
+      <section class="gallery gallery--cafes" aria-label="Thank You Mama cafés">
+        <img src="https://sort-cookie-62643129.figma.site/images/6.jpg" alt="A barista at Thank You Mama" />
+        <img
+          src="https://sort-cookie-62643129.figma.site/images/7.jpg"
+          alt="The Thank You Mama opening in Caparica"
+          loading="lazy"
+        />
+      </section>
+
+      <section class="copy copy--closing">
+        <p>
+          We’re super grateful to all our friends and the local and international communities on
+          both sides of Tejo for having us all these years.
+        </p>
+      </section>
+
+      <footer class="footer">
+        <img
+          class="footer__logo"
+          src="https://sort-cookie-62643129.figma.site/images/8.svg"
+          alt="Thank You Mama Café"
+        />
+
+        <p class="footer__links">
+          <a href="mailto:hello@thankyoumama.cafe">Book our café</a>
+          ·
+          <a
+            href="https://www.instagram.com/thankyoumama.cafe"
+            target="_blank"
+            rel="noreferrer"
+            >Instagram</a
+          >
+          ·
+          <a
+            href="https://open.spotify.com/user/3134pyqowoc4ycrzhv7gzkoihu6u"
+            target="_blank"
+            rel="noreferrer"
+            >Spotify</a
+          >
+        </p>
+
+        <p>© Thank You Mama Lda., PT516430211</p>
+      </footer>
+    </main>
+  </body>
+</html>
